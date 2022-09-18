@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin:0;
+}
+h2 {
+    color: #606060;
+}
+ul {
+    list-style: none;
+    margin: 0 auto;
+    background-color: #35444F;
+}
+a {
+    text-decoration: none;
+    display: table-cell;
+    vertical-align: middle;
+    transition: .2s linear;
+}
+nav {
+    display: block;
+    width: 1030px;
+    margin: 0 auto 30px;
+}
+li{
+    border-right: 1px solid #ffffff;
+}
+
+.four ul {
+    display: flex;
+    background: #35444F;
+    padding-left: 0;
+    width: 100%;
+}
+.four a {
+    height: 77px;
+
+    padding-left: 32px;
+    padding-right: 32px;
+    color: #ffffff;
+    font-family: "Roboto";
+    /*border-right: 1px solid #ffffff;*/
+    background: #35444F;
+}
+.four a:hover {background: #303036
+}
